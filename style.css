@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #f5f5f5;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .equal a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  .equal a:hover{
+    text-decoration: underline;
+    color: black;
+    position: relative;
+    bottom: 3px;
+  }
+  
+  .request {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .request:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s ease-out all;
+    transform: scale(1.1);
+  }
+  .landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    flex-wrap: wrap;
+  }
+  
+  .navigate {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .our {
+    margin-bottom: 20px;
+    max-width: 500px;
+  }
+  
+  .Book {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .Book:hover{
+    background-color: gray;
+    color: white;
+    transition: 1s ease-out all;
+    transform: scale(1.1);
+  }
+  .illus {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .netflix {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 10%;
+    background-color: #f9f9f9;
+  }
+  
+  .duck {
+    height: auto;
+  }
+  
+  .service {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    padding: 40px 10%;
+  }
+  
+  .sir {
+    margin-top: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 10%;
+    flex-wrap: wrap;
+  }
+  
+  .card1{
+    display: flex;
+    border: 5px solid #807d7d;
+    border-radius: 30px;
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    background: #c9c6c6;
+    text-align: center;
+  }
+  .gggg{
+    align-items: center;
+  }
+  .card2 {
+    display: flex;
+    border: 5px solid #807d7d;
+    border-radius: 30px;
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    background: greenyellow;
+    text-align: center;
+  }
+  
+  .arrow {
+    margin-top: 10px;
+  }
+  
+  .cylinder {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 10%;
+    justify-content: center;
+  }
+  
+  .gas {
+    background: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+   .parent3, .parent0 {
+    padding: 40px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .child2 {
+    margin-top: 10px;
+  }
+  
+  .parent4 {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .parent5 {
+    flex: 1;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .btn3 {
+    padding: 10px 20px;
+    background: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+ .last-section {
+    background-color: #333;
+    color: white;
+    padding: 40px 10%;
+  }
+  
+  .header2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .equals1 {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .icons svg {
+    margin-right: 15px;
+  }
+  
+  .contact-section {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .request-1 {
+    background: white;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .email-submit input {
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .email-submit button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: white;
+    color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .header, .landing, .cards, .cylinder, .parent0, .header2, .contact-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navigate {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  
+    .request {
+      margin-top: 10px;
+    }
+  
+    .netflix {
+      gap: 15px;
+    }
+  
+    .email-submit {
+      flex-direction: column;
+    }
+  
+    .email-submit input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .email-submit button {
+      width: 100%;
+    }
+  }
+  
+@media (max-width: 1200px) {
+    .list {
+      margin-left: 50px;
+      gap: 20px;
+    }
+  
+    .card1, .card2 {
+      width: 90%;
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .gas {
+      width: 90%;
+    }
+  
+    .contact-section {
+      flex-direction: column;
+      gap: 40px;
+      margin-left: 0;
+    }
+  
+    .last-section {
+      width: 95%;
+      margin: 50px auto;
+    }
+  
+    .email-submit {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .email-submit input,
+    .email-submit button {
+      width: 90%;
+      margin-top: 10px;
+    }
+  
+    .parent0 {
+      flex-direction: column;
+      height: auto;
+      width: 90%;
+      padding: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .list {
+      flex-direction: column;
+      margin-left: 0;
+      align-items: center;
+    }
+  
+    .landing {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navigate {
+      font-size: 40px;
+    }
+  
+    .netflix {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service {
+      flex-direction: column;
+      text-align: center;
+      margin-left: 0;
+    }
+  
+    .parent3 {
+      flex-direction: column;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .parent4 {
+      width: 100%;
+    }
+  
+    .header2 {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .logo-2 {
+      padding-right: 0;
+    }
+  
+    .request {
+      margin-bottom: 10px;
+    }
+  
+    .btn3 {
+      margin: 20px auto;
+    }
+  
+    .cylinder {
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navigate {
+      font-size: 30px;
+    }
+  
+    .our {
+      font-size: 16px;
+    }
+  
+    .Book {
+      width: 100%;
+    }
+  
+    .arrow {
+      right: 20%;
+    }
+  
+    .rock {
+      right: 15%;
+    }
+  
+    .last-section {
+      height: auto;
+      padding: 20px;
+    }
+  }
+  
