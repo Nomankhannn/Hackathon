@@ -40,8 +40,6 @@
   .equal a:hover{
     text-decoration: underline;
     color: black;
-    position: relative;
-    bottom: 3px;
   }
   
   .request {
@@ -53,7 +51,7 @@
     border-radius: 10px;
   }
   .request:hover{
-    background-color: gray;
+    background-color: rgb(49, 54, 116);
     color: white;
     transition: 1s ease-out all;
     transform: scale(1.1);
@@ -86,7 +84,7 @@
   }
 
   .Book:hover{
-    background-color: gray;
+    background-color: rgb(46, 47, 99);
     color: white;
     transition: 1s ease-out all;
     transform: scale(1.1);
